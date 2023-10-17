@@ -1,19 +1,14 @@
 import React from 'react'
+import Button from '../../components/Button'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
 import './Contact.css'
 
 const Contact = () => {
   return (
     <>
     <body>
-    <header>
-        <h1>PortFolio</h1>
-    </header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        {/* <a href="#">Portfolio</a> */}
-        <a href="/contact">Contact</a>
-    </nav>
+    <Navbar/>
     {/* <main>
         
         <section>
@@ -32,7 +27,9 @@ const Contact = () => {
                 <li>Email: ashishkumal89@email.com</li>
                 <li>Phone: +977 9863184429</li>
             </ul>
-            <h2>Form</h2>
+    
+    <h2>message me</h2>
+
 <div className="form">
 
             <form action="">
@@ -54,15 +51,13 @@ const Contact = () => {
            
             </div>
         </section>
-        
+        <Button title="Bye"/>
             
         
     </main>
 
     
-    <footer>
-        &copy; 2023 | Ashish Kumal | ImLaZyCaT
-    </footer>
+   <Footer/>
 </body>
     </>
   )

@@ -1,19 +1,13 @@
 import React from 'react'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
 import './About.css'
 
 const About = () => {
   return (
     <>
     <body>
-    <header>
-        <h1>PortFolio</h1>
-    </header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        {/* <a href="#">Portfolio</a> */}
-        <a href="/contact">Contact</a>
-    </nav>
+  <Navbar/>
     <main>
         <section>
             <h2>About Me</h2>
@@ -21,9 +15,7 @@ const About = () => {
         </section>
        
     </main>
-    <footer>
-        &copy; 2023 | Ashish Kumal | ImLaZyCaT
-    </footer>
+    <Footer/>
 </body>
     </>
   )

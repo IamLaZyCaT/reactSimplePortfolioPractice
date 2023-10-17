@@ -1,4 +1,7 @@
 import React from 'react'
+import Button from '../../components/Button'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
 import './Home.css'
 
 const Home = () => {
@@ -6,15 +9,8 @@ const Home = () => {
     <>
 
 <body>
-    <header>
-        <h1>PortFolio</h1>
-    </header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        {/* <a href="#">Portfolio</a> */}
-        <a href="/contact">Contact</a>
-    </nav>
+   <Navbar/>
+   <Button title="hello"/>
     <main>
         <section>
             <div className="container">
@@ -40,9 +36,7 @@ const Home = () => {
             <li>you can follow me in git hub ImLaZyCat</li>
         </section> */}
     </main>
-    <footer>
-        &copy; 2023 | Ashish Kumal | ImLaZyCaT
-    </footer>
+    <Footer/>
 </body>
 
    
